@@ -1,0 +1,110 @@
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element selector */
+h1{
+    color: green; 
+}
+h2{
+   color: green;
+   text-align: center; 
+}
+ul{
+    margin-left: 20px;
+}
+ol{
+margin-left: 20px;
+}
+
+/* Class selector */
+.container {
+   text-align: center;
+}
+
+.box-coklat {
+    width: 100%;
+    height: 50px;
+    background-color: chocolate;
+}
+
+.box-image {
+    float: right; 
+    width: 20%; 
+    height: 300px;
+    margin: 0 0 20px 20px;
+}
+
+.box-gambar{
+    margin: 0 0 20px 20px; 
+    width: 100%;
+}
+.grid-container{
+        display: grid;
+        place-items: center;
+        margin-bottom: 20;
+        grid-template-columns: auto 1fr; 
+        gap: 20px; 
+        align-items: center; 
+
+}
+.image1{
+    float: right; 
+    width: 30%; 
+    height: 200px;
+    margin: 0 0 20px 20px; 
+}
+.grid{
+    display: grid;
+        place-items: center;
+        margin-bottom: 20;
+        grid-template-columns: auto 1fr; 
+        gap: 20px; 
+        align-items: center; 
+}
+.image2{
+    width: 300px; 
+    height: 200px;
+    margin: 0 0 20px 20px; 
+}
+/* ID selector */
+#bingkai-box {
+    border: 3px solid #8B4513; /* Bingkai coklat untuk header */
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;;
+}
+#float{
+    max-width: 1200px; 
+    margin: 0 auto; 
+    overflow: hidden; 
+    margin-bottom: 20px;
+}
+#text{
+    text-align: right;
+    color: green;
+}
+#float2{
+    margin-top: 30px;
+    max-width: 1200px; 
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+
+
+/* Attribute selector */
+a[href] {
+    color: green; 
+   
+}
+
+
+/* Class selector for text */
+.text-green {
+    color: green; 
+}
